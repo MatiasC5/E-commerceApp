@@ -1,0 +1,35 @@
+main {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 10px;
+}
+
+ul li {
+    border: solid 3px black;
+    width: 200px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+
+ul li img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
